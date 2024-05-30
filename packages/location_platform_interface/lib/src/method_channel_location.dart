@@ -51,7 +51,8 @@ class MethodChannelLocation extends LocationPlatform {
         'accuracy': accuracy!.index,
         'interval': interval,
         'distanceFilter': distanceFilter,
-        'pausesLocationUpdatesAutomatically': pausesLocationUpdatesAutomatically,
+        'pausesLocationUpdatesAutomatically':
+            pausesLocationUpdatesAutomatically,
       },
     );
 
